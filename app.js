@@ -125,7 +125,7 @@ async function initializePage() {
     
         var dateStr=`${year}${month}${day}`;
         // 调用实际API获取数据
-        const response = await fetch('https://api.ztm-tech.ddns-ip.net');
+        const response = await fetch('https://hello.ztm-tech-001.workers.dev');
         if (!response.ok) {
             throw new Error(`HTTP error! status: ${response.status}`);
         }
